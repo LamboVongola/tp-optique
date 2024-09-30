@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(244, 244, 244, 0.658);
+}
+
+h1{
+    text-align: center;
+}
+header nav {
+    background-color: rgb(63, 177, 135);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 13px;
+}
+header nav ul {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding-bottom: 3px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    top: 7px;
+    left: 15px;
+    width: 70px;
+    height: auto;
+    z-index: 1000;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+section img {
+    max-width: 20%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer .support {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;               
+    padding: 20px;          
+    background-color: white
+
+    /* je me suis aidé d'internet pour ce code la*/
+}
+
+footer .support img {
+    width: 50px;  /* Taille des icônes, ajustable selon tes besoins */
+    height: auto; /* Garde la proportion de l'image */
+}
